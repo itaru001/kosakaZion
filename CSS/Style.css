@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%;
+}
+
+#Navigation {
+
+
+	z-index: 5;
+	position: fixed;
+
+	width: 100%;
+	height: 80px;
+	top: 0px;
+
+	opacity: 0.9;
+
+	text-align: center;
+	
+	background-color: #6699FF;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+#NavTitle {
+	position: fixed;
+	
+	width: 300px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 30px;
+	padding-top: 15px;
+
+	
+}
+
+#Flower {
+
+	float: right;
+	width: 50px;
+	height: 55px;
+
+	background-image: url('../Images/Flower.png');
+	background-repeat: no-repeat;
+}
+
+
+
+#navLinks {
+	float:right;
+
+	height: 100%;
+	width: 60%;
+	
+}
+
+#navLinks ul {
+
+	height: 100%;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #4477FF;
+}
+
+#navLinks li {
+	width: 33.33%;
+	
+	float: left;	
+
+
+	padding: 5px 0px 0px 0px; /* この二つの要素は 80px になる */
+	line-height: 75px;
+}
+
+#navLinks li:hover {
+	background-color: #FF0066;
+
+	-webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#navLinks a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #FFF;
+	padding: 0px 0px;
+
+	display: block; /* これは大事、a を li を満たすために */
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+#nav {
+	margin-top: 80px;
+	width: 100%;
+    background-color: #6699FF;
+}
+#nav_wrapper {
+	border-top: #FFF 1px solid;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /*min-width: 200px;*/
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #FF0066;
+
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#nav ul li a, visited {
+    color: #FFF;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+	z-index: 2;
+
+	text-align: left;
+	width: 22%;
+    display: none;
+    position: absolute;
+    background-color: #4477FF;
+    
+    border-top: 0;
+    /*margin-left: -5px;*/
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+
+#List1 {
+	padding: 35px;
+}
+
+
+#Mission {
+	position: relative;
+	top: 20px;
+	text-align: center;
+
+	color: #4477FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
